@@ -1,5 +1,5 @@
 echo "building helloworld image....."
-docker build -t helloworld .
+docker build -t helloworld src/
 echo "helloworld image built!"
 echo ""
 echo ""

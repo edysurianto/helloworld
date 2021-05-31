@@ -1,11 +1,7 @@
 # helloworld
 
-Note: Docker is required to run this app.
+To run this app, download all files from this repo and put into one directory in local, then run run-helloworld.sh script.
 
-Execute this docker command to run the app by directly pulling the image from repo:
-$ docker run -it --rm edysurianto/helloworld
-
-To build image locally from Dockerfile, download both files (Dockerfile & helloworld) from this repo into local and run the docker build command in the same location as shown below:
-$ docker build -t helloworld .
-Then, run it bye executing docker run:
-$ docker run -it --rm helloworld
+Note: 
+- Docker is required to run this app.
+- Alpine Linux is used as the base image for this app

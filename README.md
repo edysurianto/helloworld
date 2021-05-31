@@ -11,6 +11,9 @@ To build image locally using dockerfile, download these resources:
 After downloaded and put in same directory, execute the run-helloworld shell script:  
 $ ./run-helloworld
 
+CI/CD using Github Actions is configured in the workflow:  
+"helloworld/.github/workflows/CI-Docker.yml"
+
 Note: 
 - Docker is required to run this app.
 - Alpine Linux is used as the base image for this app since it is lightweight version of Linux.

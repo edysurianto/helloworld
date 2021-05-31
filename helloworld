@@ -4,3 +4,4 @@ echo ""
 echo "Hi $name,"
 echo "Current time is:" `date '+%A, %d-%m-%Y %T'`
 echo "Have a good day, $name!:)"
+read -p ""

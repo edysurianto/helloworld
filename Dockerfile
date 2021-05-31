@@ -5,4 +5,5 @@ RUN echo "Asia/Kuala_Lumpur" >  /etc/timezone
 RUN apk del tzdata
 COPY helloworld /
 RUN dos2unix /helloworld
+RUN chmod 755 /helloworld
 CMD /helloworld
